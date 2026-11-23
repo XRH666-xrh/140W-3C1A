@@ -1,0 +1,155 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: gfs Administrator, fsdaf¡¢, LIC=HN0AE-5NPJA-SBTEJ-UZ9A4-FA8NU-99D4P
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.43.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 5 (build 528)
+Assembler:       Armasm.exe V5.06 update 5 (build 528)
+Linker/Locator:  ArmLink.exe V5.06 update 5 (build 528)
+Library Manager: ArmAr.exe V5.06 update 5 (build 528)
+Hex Converter:   FromElf.exe V5.06 update 5 (build 528)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      Segger\JL2CM3.dll V2.99.45.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\yangch\QX82018-K210-B049-140W-3C1A-TFT\PY32F032_POWER_UI_K210\MDK-ARM\K210-140W-PY32F032-TFT.uvprojx
+Project File Date:  08/20/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 5 (build 528)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'EN_CN'
+assembling startup_py32f032xx.s...
+compiling ring.c...
+..\User\ring.c(60): warning:  #177-D: variable "kx"  was declared but never referenced
+  	int kx = 0;
+..\User\ring.c: 1 warning, 0 errors
+compiling system_py32f032.c...
+compiling devmodule.c...
+compiling uartupgradedev.c...
+compiling main.c...
+compiling SysClock.c...
+compiling py32f032_it.c...
+compiling py32f032_hal_msp.c...
+compiling usermain.c...
+..\User\usermain.c(51): warning:  #144-D: a value of type "_Bool (*)()" cannot be used to initialize an entity of type "void (*)()"
+  	.poll_event = event_poll,
+..\User\usermain.c(26): warning:  #550-D: variable "tick5ms"  was set but never used
+  static uint32_t tick5ms = 0;
+..\User\usermain.c(27): warning:  #550-D: variable "tick10ms"  was set but never used
+  static uint32_t tick10ms = 0;
+..\User\usermain.c(28): warning:  #550-D: variable "tick50ms"  was set but never used
+  static uint32_t tick50ms = 0;
+..\User\usermain.c(29): warning:  #550-D: variable "tick100ms"  was set but never used
+  static uint32_t tick100ms = 0;
+..\User\usermain.c(30): warning:  #550-D: variable "tick500ms"  was set but never used
+  static uint32_t tick500ms = 0;
+..\User\usermain.c(31): warning:  #550-D: variable "tick1s"  was set but never used
+  static uint32_t tick1s = 0;
+..\User\usermain.c(32): warning:  #550-D: variable "tick60s"  was set but never used
+  static uint32_t tick60s = 0;
+..\User\usermain.c: 8 warnings, 0 errors
+compiling SerialFlash.c...
+..\User\SerialFlash.c(663): warning:  #177-D: variable "address"  was declared but never referenced
+  	uint32_t address = 0x000000;
+..\User\SerialFlash.c(328): warning:  #550-D: variable "dummy"  was set but never used
+  static uint8_t dummy;
+..\User\SerialFlash.c: 2 warnings, 0 errors
+compiling display.c...
+compiling key.c...
+compiling SEGGER_RTT_printf.c...
+compiling SEGGER_RTT.c...
+compiling pm.c...
+compiling iic_soft.c...
+compiling uart.c...
+compiling flash.c...
+compiling SP86xx_uart.c...
+compiling SDL_event.c...
+compiling SDL_timer.c...
+..\flyport\timer\SDL_timer.c(16): warning:  #223-D: function "HAL_GetTick" declared implicitly
+  	s_last_ticks_10ms = HAL_GetTick();
+..\flyport\timer\SDL_timer.c(27): warning:  #223-D: function "HAL_GetTick" declared implicitly
+  	uint32_t tick = HAL_GetTick();
+..\flyport\timer\SDL_timer.c: 2 warnings, 0 errors
+compiling ui_context.c...
+compiling P1.c...
+compiling P2.c...
+..\..\UI_N133_240X240_K210\src\logic\P2.c(105): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[0], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(115): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[0], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(125): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[1], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(135): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[1], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(145): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[2], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(155): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[2], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(165): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[3], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c(175): warning:  #167-D: argument of type "uint8_t *" is incompatible with parameter of type "char *"
+  		port2av(ports[3], str);
+..\..\UI_N133_240X240_K210\src\logic\P2.c: 8 warnings, 0 errors
+compiling poweroff.c...
+compiling P4.c...
+compiling powerup.c...
+compiling P3.c...
+compiling run.c...
+compiling py32f032_hal.c...
+compiling video.c...
+..\flyport\graphics\video.c(256): warning:  #223-D: function "LCD_Fill" declared implicitly
+  	LCD_Fill(0,0,LCD_WIDTH,LCD_HEIGHT,color);
+..\flyport\graphics\video.c(390): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\flyport\graphics\video.c: 2 warnings, 0 errors
+compiling py32f032_hal_cortex.c...
+compiling py32f032_hal_rcc.c...
+compiling py32f032_hal_rcc_ex.c...
+compiling py32f032_hal_pwr.c...
+compiling py32f032_hal_pwr_ex.c...
+compiling py32f032_hal_gpio.c...
+compiling py32f032_hal_dma.c...
+compiling py32f032_hal_uart.c...
+compiling py32f032_hal_sci_ex.c...
+compiling py32f032_hal_spi.c...
+compiling py32f032_hal_sci.c...
+linking...
+Program Size: Code=37644 RO-data=820 RW-data=384 ZI-data=7200  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --text -a -c -o "D:\yangch\QX82018-K210-B049-140W-3C1A-TFT\PY32F032_POWER_UI_K210\MDK-ARM\Output\Project.asm" "D:\yangch\QX82018-K210-B049-140W-3C1A-TFT\PY32F032_POWER_UI_K210\MDK-ARM\Output\Project.axf"
+".\Output\Project.axf" - 0 Error(s), 23 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.3.0.pack
+                ARM::CMSIS@6.3.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.2.0
+
+Package Vendor: Puya
+                https://www.puyasemi.com/uploadfiles/Puya.PY32F0xx_DFP.1.2.8.pack
+                Puya::PY32F0xx_DFP@1.2.8
+                Puya PY32F0 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_EN_CN
+  C:/Keil_v5/ARM/PACK/ARM/CMSIS/6.3.0/CMSIS/Core/Include
+  C:/Keil_v5/ARM/PACK/Puya/PY32F0xx_DFP/1.2.8/Drivers/CMSIS/Device/PY32F0xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.2.0
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

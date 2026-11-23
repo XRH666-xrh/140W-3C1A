@@ -1,0 +1,1533 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 5060528::V5.06 update 5 (build 528)::ARMCC
+F (.\startup_py32f032xx.s)(0x68AC1B9A)(--cpu Cortex-M0+ -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include--pd "__UVISION_VERSION SETA 543" --pd "_RTE_ SETA 1"--list .\output\startup_py32f032xx.lst --xref -o .\output\startup_py32f032xx.o --depend .\output\startup_py32f032xx.d)
+F (..\Src\system_py32f032.c)(0x68AC1B9A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\system_py32f032.o --omf_browse .\output\system_py32f032.crf --depend .\output\system_py32f032.d)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Src\main.c)(0x68F9D668)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\main.o --omf_browse .\output\main.crf --depend .\output\main.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\system.h)(0x68F9D68D)
+I (..\User\sysclock.h)(0x67340D75)
+F (..\Src\py32f032_hal_msp.c)(0x68AC1B9A)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_msp.o --omf_browse .\output\py32f032_hal_msp.crf --depend .\output\py32f032_hal_msp.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\Src\py32f032_it.c)(0x68F86B25)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_it.o --omf_browse .\output\py32f032_it.crf --depend .\output\py32f032_it.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\Inc\py32f032_it.h)(0x68AC1B9A)
+I (..\User\system.h)(0x68F9D68D)
+I (..\User\sysclock.h)(0x67340D75)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal.o --omf_browse .\output\py32f032_hal.crf --depend .\output\py32f032_hal.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_cortex.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_cortex.o --omf_browse .\output\py32f032_hal_cortex.crf --depend .\output\py32f032_hal_cortex.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_rcc.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_rcc.o --omf_browse .\output\py32f032_hal_rcc.crf --depend .\output\py32f032_hal_rcc.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_rcc_ex.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_rcc_ex.o --omf_browse .\output\py32f032_hal_rcc_ex.crf --depend .\output\py32f032_hal_rcc_ex.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_pwr.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_pwr.o --omf_browse .\output\py32f032_hal_pwr.crf --depend .\output\py32f032_hal_pwr.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_pwr_ex.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_pwr_ex.o --omf_browse .\output\py32f032_hal_pwr_ex.crf --depend .\output\py32f032_hal_pwr_ex.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_gpio.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_gpio.o --omf_browse .\output\py32f032_hal_gpio.crf --depend .\output\py32f032_hal_gpio.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_dma.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_dma.o --omf_browse .\output\py32f032_hal_dma.crf --depend .\output\py32f032_hal_dma.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_uart.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_uart.o --omf_browse .\output\py32f032_hal_uart.crf --depend .\output\py32f032_hal_uart.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_spi.c)(0x68AC1BAA)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_spi.o --omf_browse .\output\py32f032_hal_spi.crf --depend .\output\py32f032_hal_spi.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_sci.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_sci.o --omf_browse .\output\py32f032_hal_sci.crf --depend .\output\py32f032_hal_sci.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\Drivers\PY32F032_HAL_Driver\Src\py32f032_hal_sci_ex.c)(0x68AC1BA9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\py32f032_hal_sci_ex.o --omf_browse .\output\py32f032_hal_sci_ex.crf --depend .\output\py32f032_hal_sci_ex.d)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+F (..\flyport\event\SDL_event.c)(0x5FD214C9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\sdl_event.o --omf_browse .\output\sdl_event.crf --depend .\output\sdl_event.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (..\flyport\event\event.h)(0x5FD214C9)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\context/message.h)(0x60195AA5)
+F (..\flyport\graphics\video.c)(0x69CCC0F1)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\video.o --omf_browse .\output\video.crf --depend .\output\video.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\flyport\graphics\video.h)(0x5FD214C9)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\User\usermain.h)(0x69CB925A)
+F (..\flyport\timer\SDL_timer.c)(0x68F9DE5F)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\sdl_timer.o --omf_browse .\output\sdl_timer.crf --depend .\output\sdl_timer.d)
+I (..\include\timer/timer.h)(0x5FED2AD6)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\context/message.h)(0x60195AA5)
+F (..\flythings\FlyThingsLib_F032.lib)(0x68F9DEF4)()
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power1.c)(0x6983FE24)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power1.o --omf_browse .\output\power1.crf --depend .\output\power1.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power1.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power2.c)(0x6983FE31)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power2.o --omf_browse .\output\power2.crf --depend .\output\power2.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power2.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power3.c)(0x6983FE81)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power3.o --omf_browse .\output\power3.crf --depend .\output\power3.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power3.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power31.c)(0x69BA1895)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power31.o --omf_browse .\output\power31.crf --depend .\output\power31.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power31.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power32.c)(0x69BA1895)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power32.o --omf_browse .\output\power32.crf --depend .\output\power32.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power32.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\power33.c)(0x69BA473C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\power33.o --omf_browse .\output\power33.crf --depend .\output\power33.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power33.h)(0x69BBB839)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\poweroff.c)(0x69B2211C)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\poweroff.o --omf_browse .\output\poweroff.crf --depend .\output\poweroff.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/poweroff.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+I (..\User\display.h)(0x69B1533B)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic\powerup.c)(0x69B21F69)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\powerup.o --omf_browse .\output\powerup.crf --depend .\output\powerup.d)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/powerup.h)(0x69C368CE)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)
+I (..\User\display.h)(0x69B1533B)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_context.c)(0x69C368CE)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\ui_context.o --omf_browse .\output\ui_context.crf --depend .\output\ui_context.d)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/powerup.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power1.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power2.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power3.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power31.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power32.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/poweroff.h)(0x69C368CE)
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)()
+F (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_res_image.h)(0x69C368CE)()
+F (..\User\SysClock.c)(0x68AD1DDC)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\sysclock.o --omf_browse .\output\sysclock.crf --depend .\output\sysclock.d)
+I (..\User\system.h)(0x68F9D68D)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\sysclock.h)(0x67340D75)
+F (..\User\devmodule.c)(0x5F5306C4)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\devmodule.o --omf_browse .\output\devmodule.crf --depend .\output\devmodule.d)
+I (..\User\devmodule.h)(0x61E93771)
+I (..\User\common.h)(0x5FC88A5F)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\User\ring.c)(0x69CB92D9)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\ring.o --omf_browse .\output\ring.crf --depend .\output\ring.d)
+I (..\User\ring.h)(0x6125A8FD)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\User\usermain.c)(0x69CB9650)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\usermain.o --omf_browse .\output\usermain.crf --depend .\output\usermain.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\devmodule.h)(0x61E93771)
+I (..\User\common.h)(0x5FC88A5F)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\include\event/event.h)(0x5FD95D3B)
+I (..\include\timer/timer.h)(0x5FED2AD6)
+I (..\include\context/resource.h)(0x681EF7BA)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/powerup.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\logic/power1.h)(0x69C368CE)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\User\usermain.h)(0x69CB925A)
+I (..\User\SerialFlash.h)(0x68B94223)
+I (..\User\display.h)(0x69B1533B)
+I (..\User\key.h)(0x6982FF0E)
+F (..\User\SerialFlash.c)(0x68F9DA1B)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\serialflash.o --omf_browse .\output\serialflash.crf --depend .\output\serialflash.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\SerialFlash.h)(0x68B94223)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\User\usermain.h)(0x69CB925A)
+F (..\User\uartupgradedev.c)(0x68F9DA60)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\uartupgradedev.o --omf_browse .\output\uartupgradedev.crf --depend .\output\uartupgradedev.d)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\User\common.h)(0x5FC88A5F)
+I (..\User\devmodule.h)(0x61E93771)
+I (..\User\ring.h)(0x6125A8FD)
+I (..\User\SerialFlash.h)(0x68B94223)
+I (..\User\usermain.h)(0x69CB925A)
+F (..\User\display.c)(0x69CCF7DB)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\display.o --omf_browse .\output\display.crf --depend .\output\display.d)
+I (..\User\display.h)(0x69B1533B)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\include\context/guicontext.h)(0x68F865FF)
+I (..\include\widget/image.h)(0x5FD9606F)
+I (..\include\widget/widget.h)(0x681EF791)
+I (..\include\context/message.h)(0x60195AA5)
+I (..\include\context/common.h)(0x6052BA77)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x588B8344)
+I (..\include\misc/rect.h)(0x6052BB17)
+I (..\include\graphics/gfx.h)(0x68381DF9)
+I (..\include\widget/label.h)(0x601F41DE)
+I (..\include\widget/animation.h)(0x5FD9606F)
+I (..\include\widget/button.h)(0x5FD9606F)
+I (..\include\widget/progress.h)(0x6052BB4F)
+I (..\include\widget/imagetext.h)(0x6052BB31)
+I (..\include\widget/radio.h)(0x5FD95D3B)
+I (..\include\widget/qrcode.h)(0x60195A1B)
+I (..\include\widget/increment.h)(0x60517F2D)
+I (..\include\widget/numtext.h)(0x60517F2D)
+I (..\include\widget/window.h)(0x60195A51)
+I (..\include\graphics/video.h)(0x6052D20A)
+I (..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src\ui_page.h)(0x69C368CE)
+I (..\User\pm.h)(0x69CB9693)
+I (..\User\key.h)(0x6982FF0E)
+F (..\User\key.c)(0x69B15643)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\key.o --omf_browse .\output\key.crf --depend .\output\key.d)
+I (..\User\key.h)(0x6982FF0E)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\User\pm.c)(0x69BD2459)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\pm.o --omf_browse .\output\pm.crf --depend .\output\pm.d)
+I (..\User\pm.h)(0x69CB9693)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (..\User\iic_soft.h)(0x6978380B)
+F (..\User\iic_soft.c)(0x6985C970)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\iic_soft.o --omf_browse .\output\iic_soft.crf --depend .\output\iic_soft.d)
+I (..\User\iic_soft.h)(0x6978380B)
+I (..\Inc\main.h)(0x69CB93FA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f0xx_hal.h)(0x68AC1BAA)
+I (..\Inc\py32f032_hal_conf.h)(0x68AD4D3D)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_cortex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_def.h)(0x68AC1BAB)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f0xx.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\py32f032x8.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\core_cm0plus.h)(0x68AC1BB1)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x69C4EB74)
+I (..\Drivers\CMSIS\Include\cmsis_version.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_compiler.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Include\cmsis_armcc.h)(0x68AC1BB0)
+I (..\Drivers\CMSIS\Device\PY32F032\Include\system_py32f0xx.h)(0x68AC1BB0)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_flash_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_pwr_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_rcc_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_gpio_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_dma_ex.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_sci_ex.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_uart.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_hal_spi.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_gpio.h)(0x68AC1BAB)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_rcc.h)(0x68AC1BAA)
+I (..\Drivers\PY32F032_HAL_Driver\Inc\py32f032_ll_bus.h)(0x68AC1BAB)
+I (..\SEGGER_RTT\debug.h)(0x699EC551)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+F (..\SEGGER_RTT\SEGGER_RTT.c)(0x6968A223)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\segger_rtt.o --omf_browse .\output\segger_rtt.crf --depend .\output\segger_rtt.d)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)()
+F (..\SEGGER_RTT\SEGGER_RTT_printf.c)(0x699EC589)(--c99 -c --cpu Cortex-M0+ -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ..\Inc -I ..\Drivers\BSP\PY32F032xx_Start_Kit -I ..\Drivers\CMSIS\Include -I ..\Drivers\CMSIS\Device\PY32F032\Include -I ..\Drivers\PY32F032_HAL_Driver\Inc -I ..\User -I ..\include -I ..\flythings\ui -I ..\flyport -I ..\flyport\graphics -I ..\..\PY32F030_POWER_UI\PUYA_Flying_UI_Project\src -I ..\SEGGER_RTT --diag_suppress=1295,381-I.\RTE\_Project-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\6.3.0\CMSIS\Core\Include-IC:\Keil_v5\ARM\PACK\Puya\PY32F0xx_DFP\1.2.8\Drivers\CMSIS\Device\PY32F0xx\Include-D__UVISION_VERSION="543" -D_RTE_ -DUSE_HAL_DRIVER -DPY32F032x8-o .\output\segger_rtt_printf.o --omf_browse .\output\segger_rtt_printf.crf --depend .\output\segger_rtt_printf.d)
+I (..\SEGGER_RTT\SEGGER_RTT.h)(0x699EC514)
+I (..\SEGGER_RTT\SEGGER_RTT_Conf.h)(0x699EDAF6)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (C:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x588B8344)

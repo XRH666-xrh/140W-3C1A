@@ -1,0 +1,9 @@
+.\output\sdl_event.o: ..\flyport\event\SDL_event.c
+.\output\sdl_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\sdl_event.o: ..\flyport\event\event.h
+.\output\sdl_event.o: ..\include\context/common.h
+.\output\sdl_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\sdl_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\output\sdl_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\sdl_event.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\output\sdl_event.o: ..\include\context/message.h
